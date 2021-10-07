@@ -1,0 +1,153 @@
+.products {
+    background: linear-gradient(90deg, #232526 0%, #414345 100%);
+    padding: 145px 0 0 0;
+    .white {
+        background-color: white;
+        padding: 145px 0 0 0;
+    }
+    h1 {
+        font-family: Bebas Neue;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 80px;
+        line-height: 80px;
+        text-shadow: #fff8f8 1px 1px 0, white -1px -1px 0, white -1px 1px 0, white 1px -1px 0;
+        color: rgba(35, 37, 38, 1);
+        letter-spacing: 2px;
+    }
+    &_content {
+        display: flex;
+        justify-content: space-between;
+
+        &__white {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    &_des {
+        width: 660px;
+        margin-top: 90px;
+        &__title {
+            display: flex;
+            h2 {
+                font-family: Corporation Games;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 40px;
+                line-height: 46px;
+                color: #FFFFFF;
+            }
+            div {
+               margin-left: 20px !important;     
+            }  
+        }
+        
+        p {
+            font-family: Maison Neue;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 38px;
+            color: #FFFFFF;
+            margin-top: 22px;
+        }
+        &__white {
+            width: 660px;
+            margin-top: 90px;
+            &__title {
+                display: flex;
+                h2 {
+                    font-family: Corporation Games;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 40px;
+                    line-height: 46px;
+                    color: black    ;
+                }
+                div {
+                   margin-left: 20px !important;     
+                } 
+            }
+            p {
+                font-family: Maison Neue;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 24px;
+                line-height: 38px;
+                color: rgba(38, 45, 48, 0.7);
+                margin-top: 22px;
+            }
+        }
+        &__whiteTitle {
+            display: flex;
+            h2 {
+                font-family: Corporation Games;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 40px;
+                line-height: 46px;
+                color: black    ;
+            }
+            div {
+                margin-left: 20px !important;     
+            } 
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .products {
+        &_content {
+            flex-wrap: wrap !important;
+
+            img {
+                width: 380px;
+            }
+            &__white {
+                flex-wrap: wrap !important;
+                img {
+                    width: 380px;
+                }
+                P {
+                    font-size: 20px;
+                    line-height: 30px;
+                }
+            }  
+        }
+        &_des {
+            &__title {
+                h2 {
+                    font-size: 30px !important;
+                    line-height: normal;
+                }
+                div {
+                    img {
+                        min-width: 40% !important;
+                        margin: 0 !important;
+                    }   
+                 } 
+            }
+            &__whiteTitle {
+                h2 {
+                    font-size: 30px;
+                    line-height: normal;
+                }
+                div {
+                   img {
+                       min-width: 40% !important;
+                       margin: 0 !important;
+                   }   
+                } 
+            }
+        }
+        p {
+            font-size: 20px !important;
+            line-height: 30px;
+        }
+        &_image {
+            width: 100%;
+            display: flex;
+            justify-content: center
+        }
+    }
+}

@@ -1,0 +1,117 @@
+.contacts {
+    padding: 105px 0 0 0;
+    background: #414345;
+    h1 {
+        font-family: Bebas Neue;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 80px;
+        line-height: 80px;
+        text-shadow: #fff8f8 1px 1px 0, white -1px -1px 0, white -1px 1px 0, white 1px -1px 0;
+        color: #232526;
+    }
+    &_content {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img {
+
+        }
+    }
+    &_nav {
+        ul {
+            width: 70px;
+            li {
+                font-size: 14px;
+                line-height: 16px;
+                color: white;
+                margin-top: 50px;
+                position: relative;
+                font-family: -webkit-pictograph;
+                display: inline-block;
+                &:hover {
+                    &::after {
+                        position: absolute;
+                        content: '';
+                        width: 100%;
+                        height: 2px;
+                        background: #E31E24;
+                        transform: matrix(1, 0, 0, -1, 0, 0);
+                        left: 0;
+                        bottom: -10px;
+                    }
+                }
+            }
+        }
+    }
+    &_info {
+        &__connection {
+            span {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px;
+                color: #FFFFFF;
+                display: block;
+                
+            }
+        }
+        &__addres {
+            margin-top: 60px;
+            width: 170px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            color: #FFFFFF;
+        }
+        &__social {
+            display: flex;
+            margin-top: 60px;
+
+            img {
+                margin-right: 25px;
+            }
+        }
+        &__logo {
+            margin-top: 60px;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .contacts {
+        padding-bottom: 40px;
+        &_content {
+            margin-top: 0px;
+            flex-flow: wrap;
+        }
+        &_nav {
+            margin-bottom: 20px;
+            ul {
+                width: 100%;
+
+                li {
+                    margin-right: 8px;
+                }
+            }
+        }
+        &_info {
+            display: flex;
+            flex-flow: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
+
+            &__addres {
+                margin: 0px;
+            }
+            &__social {
+                margin-top: 20px;
+            }
+            &__logo {
+                margin-top: 20px;
+            }
+        }
+    }
+}

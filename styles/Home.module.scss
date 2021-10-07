@@ -1,0 +1,24 @@
+.header {
+  background-image: url('../public/img/young-man.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  &_line {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.4);
+    height: 1px;
+  }
+}
+
+
+
+
+
+
+
+
+// @media (max-width: 600px) {
+//   .grid {
+//     width: 100%;
+//     flex-direction: column;
+//   }
+// }
