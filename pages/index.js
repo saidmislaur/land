@@ -7,7 +7,7 @@ import styles from '../styles/Home.module.scss'
 import aboutStyle from '../styles/About.module.scss'
 import Advantages from '../components/Advantages/Advantages'
 import Products from '../components/Products/Products'
-
+import prodStyles from '../styles/Products.module.scss'
 import SvgProd from '../public/img/prodSvg.svg';
 import SvgProdBlack from '../public/img/prodBlack.svg';
 import Reviews from '../components/Reviews/Reviews'
