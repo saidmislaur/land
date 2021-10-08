@@ -44,7 +44,7 @@ export default function Contacts() {
                             </li>
                         </ul>
                     </nav>
-                    <Image src={CartImg} alt="svg"/>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.4646926642695!2d-74.19615088463374!3d40.75180307932763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25498a33cbde3%3A0x4c59182e8f11400c!2zNTIzIFcgTWFya2V0IFN0LCBOZXdhcmssIE5KIDA3MTA3LCDQodCo0JA!5e0!3m2!1sru!2sru!4v1633680029470!5m2!1sru!2sru" width="80%" height="450" style={{border: '0'}} allowFullScreen="" loading="lazy"></iframe>
                     <div className={styles.contacts_info}>
                         <div className={styles.contacts_info__connection}>
                             <span>+19734122203</span>

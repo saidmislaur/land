@@ -3,7 +3,7 @@ import styles from '../../styles/Products.module.scss';
 import SvgProd from '../../public/img/prodSvg.svg';
 import IbutSvg from '../../public/img/ibutamoren.png';
 
-export default function Products({title, name, text, svg, img, id, white}) {
+export default function Products({classTitle, title, name, text, svg, img, id, white}) {
     return (
         <div id={'products'} className={white ? styles.products + white : styles.products}>
             <div className="container">

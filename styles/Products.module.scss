@@ -1,9 +1,13 @@
 .products {
     background: linear-gradient(90deg, #232526 0%, #414345 100%);
-    padding: 145px 0 0 0;
     .white {
         background-color: white;
         padding: 145px 0 0 0;
+    }
+
+    &__classTitle {
+        display: inline-block;
+        margin-top: 145px;
     }
     h1 {
         font-family: Bebas Neue;
